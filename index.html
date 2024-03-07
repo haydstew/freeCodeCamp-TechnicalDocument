@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>A Beginner's Guide to HTML</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>A Beginner's Guide to HTML</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Introduction_to_HTML"
+            >Introduction to HTML</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Structure_of_an_HTML_document"
+            >Structure of an HTML document</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#HTML_elements_and_tags"
+            >HTML elements and tags</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Text_formatting_in_HTML"
+            >Text formatting in HTML</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Links_and_images">Links and images</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Lists_and_tables">Lists and tables</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Forms_and_input_elements"
+            >Forms and input elements</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Semantic_HTML">Semantic HTML</a></li>
+        <li><a class="nav-link" href="#HTML5_features">HTML5 features</a></li>
+        <li><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction_to_HTML">
+        <header>Introduction to HTML</header>
+        <p>
+          HTML, or Hypertext Markup Language, is the standard language used to
+          create and design web pages. It provides the fundamental structure for
+          content on the internet, defining how text, images, multimedia, and
+          other elements are displayed and interacted with by users.
+        </p>
+      </section>
+      <section class="main-section" id="Structure_of_an_HTML_document">
+        <header>Structure of an HTML document</header>
+        <p>
+          An HTML document is comprised of elements that define the structure
+          and content of a web page. The basic structure includes:
+        </p>
+        <code
+          >&lt;html&gt;: The root element that encapsulates the entire HTML
+          document.</code
+        >
+        <code
+          >&lt;head&gt;: Contains meta-information about the document, such as
+          title, links to stylesheets, and scripts.</code
+        >
+        <code
+          >&lt;body&gt;: Houses the main content of the web page, including
+          text, images, videos, and other media.</code
+        >
+      </section>
+      <section class="main-section" id="HTML_elements_and_tags">
+        <header>HTML elements and tags</header>
+        <p>
+          HTML elements are the building blocks of web pages, consisting of tags
+          that enclose content. Tags can be either opening '&lt;tag&gt;' or
+          closing '&lt;/tag&gt;', with content placed in between. Common
+          elements include headings '&lt;h1&gt;' to '&lt;h6&gt;', paragraphs
+          '&lt;p&gt;', and divisions '&lt;div&gt;'. Attributes provide
+          additional information or functionality to elements.
+        </p>
+      </section>
+      <section class="main-section" id="Text_formatting_in_HTML">
+        <header>Text formatting in HTML</header>
+        <p>HTML offers various tags for formatting text, such as:</p>
+        <code>&lt;strong&gt;: Renders text in bold.</code>
+        <code>&lt;em&gt;: Displays text in italics.</code>
+        <code>&lt;u&gt;: Underlines text.</code>
+        <code
+          >&lt;span&gt;: Allows for inline styling and grouping of
+          elements.</code
+        >
+        <p>
+          These tags help structure and style text content within a web page.
+        </p>
+      </section>
+      <section class="main-section" id="Links_and_images">
+        <header>Links and images</header>
+        <p>
+          Hyperlinks '&lt;a&gt;' enable navigation between web pages, with the
+          'href' attribute specifying the destination URL. Images '&lt;img&gt;'
+          are inserted using the 'src' attribute to define the image source. Alt
+          text '&lt;alt&gt;' provides a descriptive text alternative for screen
+          readers and when images fail to load.
+        </p>
+      </section>
+      <section class="main-section" id="Lists_and_tables">
+        <header>Lists and tables</header>
+        <p>HTML supports creating lists and tables for organizing content:</p>
+        <ul>
+          <li>
+            Lists: '&lt;ul&gt;' for unordered lists, '&lt;ol&gt;' for ordered
+            lists, and '&lt;dl&gt;' for ordered lists.
+          </li>
+          <li>
+            Tables: '&lt;table&gt;' with rows '&lt;tr&gt;', columns '&lt;td&gt;'
+            or '&lt;th&gt;' for headers, and additional elements for structure
+            and styling.
+          </li>
+        </ul>
+        <p>
+          These elements are essential for presenting information in a
+          structured format.
+        </p>
+      </section>
+      <section class="main-section" id="Forms_and_input_elements">
+        <header>Forms and input elements</header>
+        <p>
+          Forms (&lt;form&gt;) allow users to input data, with input elements
+          such as:
+        </p>
+        <ul>
+          <li>Text fields (&lt;input type="text"&gt;).</li>
+          <li>Checkboxes (&lt;input type="checkbox"&gt;).</li>
+          <li>Radio buttons (&lt;input type="radio"&gt;).</li>
+          <li>Dropdown menus (&lt;select&gt;).</li>
+        </ul>
+        <p>
+          Form elements utilize attributes to specify input requirements and
+          behavior.
+        </p>
+      </section>
+      <section class="main-section" id="Semantic_HTML">
+        <header>Semantic HTML</header>
+        <p>
+          Semantic HTML focuses on using elements that convey the meaning of
+          content, enhancing accessibility and search engine optimization.
+          Semantic elements include:
+        </p>
+        <code
+          >&lt;header&gt;, &lt;footer&gt;, &lt;nav&gt;: For defining page
+          sections.</code
+        >
+        <code
+          >&lt;article&gt;, &lt;section&gt;, &lt;aside&gt;: For structuring
+          content.</code
+        >
+        <p>
+          These elements improve code readability and assistive technology
+          interpretation.
+        </p>
+      </section>
+      <section class="main-section" id="HTML5_features">
+        <header>HTML5 features</header>
+        <p>
+          HTML5 introduces new elements and features to enhance web development:
+        </p>
+        <code
+          >&lt;video&gt; and &lt;audio&gt;: Embed multimedia content directly
+          into web pages.</code
+        >
+        <code
+          >&lt;canvas&gt;: Allows dynamic rendering of graphics and
+          animations.</code
+        >
+        <code
+          >&lt;svg&gt;: Scalable Vector Graphics for high-quality images.</code
+        >
+        <code
+          >&lt;article&gt;, &lt;section&gt;, &lt;header&gt;: Semantically
+          structure content for better comprehension.</code
+        >
+        <p>
+          HTML5 features enable richer and more interactive web experiences.
+        </p>
+      </section>
+      <section class="main-section" id="Conclusion">
+        <header>Conclusion</header>
+        <p>
+          Understanding HTML is crucial for anyone involved in web development.
+          By mastering its elements, tags, and features, developers can create
+          well-structured, accessible, and visually appealing web pages. HTML
+          serves as the foundation for building dynamic and engaging online
+          experiences, making it an essential skill for modern web development.
+          Learn more about HTML through the resources below:
+        </p>
+        <ul>
+          <li>
+            <a
+              href="https://www.codecademy.com/resources/docs/html"
+              target="_blank"
+              >Codecademy</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              >Mozilla Developer Network</a
+            >
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/html/default.asp" target="_blank"
+              >W3 Schools</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
